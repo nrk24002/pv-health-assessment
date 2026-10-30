@@ -1,0 +1,164 @@
+{
+  "oof_accuracy": 0.9797,
+  "oof_macro_f1": 0.9796,
+  "classes": [
+    "Burnmarks",
+    "Delamination",
+    "Discoloration",
+    "Glass breakage",
+    "Good Panel",
+    "Snailtrail"
+  ],
+  "confusion_matrix": [
+    [
+      525,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      525,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      525,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      524,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      62,
+      462,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      525
+    ]
+  ],
+  "per_class_recall": {
+    "Burnmarks": 1.0,
+    "Delamination": 1.0,
+    "Discoloration": 1.0,
+    "Glass breakage": 0.9981,
+    "Good Panel": 0.88,
+    "Snailtrail": 1.0
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "n_test_images": 629,
+      "n_test_panels": 30,
+      "accuracy": 1.0,
+      "classes_wrong": {
+        "Burnmarks": 0,
+        "Delamination": 0,
+        "Discoloration": 0,
+        "Glass breakage": 0,
+        "Good Panel": 0,
+        "Snailtrail": 0
+      }
+    },
+    {
+      "fold": 2,
+      "n_test_images": 629,
+      "n_test_panels": 30,
+      "accuracy": 0.9968,
+      "classes_wrong": {
+        "Burnmarks": 0,
+        "Delamination": 0,
+        "Discoloration": 0,
+        "Glass breakage": 0,
+        "Good Panel": 2,
+        "Snailtrail": 0
+      }
+    },
+    {
+      "fold": 3,
+      "n_test_images": 634,
+      "n_test_panels": 31,
+      "accuracy": 0.9984,
+      "classes_wrong": {
+        "Burnmarks": 0,
+        "Delamination": 0,
+        "Discoloration": 0,
+        "Glass breakage": 0,
+        "Good Panel": 1,
+        "Snailtrail": 0
+      }
+    },
+    {
+      "fold": 4,
+      "n_test_images": 634,
+      "n_test_panels": 29,
+      "accuracy": 0.9038,
+      "classes_wrong": {
+        "Burnmarks": 0,
+        "Delamination": 0,
+        "Discoloration": 0,
+        "Glass breakage": 1,
+        "Good Panel": 60,
+        "Snailtrail": 0
+      }
+    },
+    {
+      "fold": 5,
+      "n_test_images": 624,
+      "n_test_panels": 30,
+      "accuracy": 1.0,
+      "classes_wrong": {
+        "Burnmarks": 0,
+        "Delamination": 0,
+        "Discoloration": 0,
+        "Glass breakage": 0,
+        "Good Panel": 0,
+        "Snailtrail": 0
+      }
+    }
+  ],
+  "panels_with_errors": {
+    "count": 4,
+    "of": 150,
+    "detail_[wrong,total]": {
+      "85": [
+        1,
+        22
+      ],
+      "118": [
+        60,
+        76
+      ],
+      "113": [
+        2,
+        18
+      ],
+      "120": [
+        1,
+        20
+      ]
+    }
+  }
+}

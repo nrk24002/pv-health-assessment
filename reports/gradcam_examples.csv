@@ -1,0 +1,13 @@
+filepath,true,pred,fold,panel,kind
+Burnmarks/BURN (366).jpg,Burnmarks,Burnmarks,2,15,correct
+Burnmarks/BURN (186).jpg,Burnmarks,Burnmarks,2,10,correct
+Delamination/DEL (103).jpg,Delamination,Delamination,4,29,correct
+Delamination/DEL (195).jpg,Delamination,Delamination,4,47,correct
+Discoloration/DIS (376).jpg,Discoloration,Discoloration,4,66,correct
+Discoloration/DIS (2).jpg,Discoloration,Discoloration,5,60,correct
+Glass breakage/GB (211).jpg,Glass breakage,Glass breakage,5,95,correct
+Glass breakage/GB (35).jpg,Glass breakage,Glass breakage,5,97,correct
+Good Panel/GP (150).jpg,Good Panel,Good Panel,5,112,correct
+Good Panel/GP (67).jpg,Good Panel,Good Panel,5,119,correct
+Snailtrail/SNT (68).jpg,Snailtrail,Snailtrail,3,136,correct
+Snailtrail/SNT (306).jpg,Snailtrail,Snailtrail,3,128,correct

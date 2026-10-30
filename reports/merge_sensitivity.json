@@ -1,0 +1,42 @@
+[
+  {
+    "threshold": 0.999,
+    "min_share": 0.5,
+    "groups_after_merging": 150
+  },
+  {
+    "threshold": 0.999,
+    "min_share": 0.25,
+    "groups_after_merging": 150
+  },
+  {
+    "threshold": 0.995,
+    "min_share": 0.5,
+    "groups_after_merging": 125
+  },
+  {
+    "threshold": 0.995,
+    "min_share": 0.25,
+    "groups_after_merging": 124
+  },
+  {
+    "threshold": 0.99,
+    "min_share": 0.5,
+    "groups_after_merging": 100
+  },
+  {
+    "threshold": 0.99,
+    "min_share": 0.25,
+    "groups_after_merging": 98
+  },
+  {
+    "threshold": 0.98,
+    "min_share": 0.5,
+    "groups_after_merging": 47
+  },
+  {
+    "threshold": 0.98,
+    "min_share": 0.25,
+    "groups_after_merging": 46
+  }
+]

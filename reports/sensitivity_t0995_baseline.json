@@ -1,0 +1,16 @@
+{
+  "group_file": "/sessions/rcw-01hjtej1dkwg9nz182z3shyw/mnt/Industrial AI and eMaintenance/Projekt/Photovoltaic Health Assessment/pv-health-assessment/data/processed/group_merge_t0995.csv",
+  "n_groups": 125,
+  "fold_accuracy": [
+    1.0,
+    0.9968,
+    0.9921,
+    1.0,
+    0.9683
+  ],
+  "mean_accuracy": 0.9914,
+  "std_accuracy": 0.0119,
+  "mean_macro_f1": 0.9912,
+  "n_groups_with_errors": 5,
+  "n_errors": 27
+}

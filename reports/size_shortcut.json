@@ -1,0 +1,30 @@
+{
+  "features": [
+    "width",
+    "height",
+    "aspect_ratio"
+  ],
+  "chance_level": 0.1667,
+  "panel_grouped_5fold": {
+    "fold_accuracy": [
+      0.6725,
+      0.4849,
+      0.3849,
+      0.4464,
+      0.5032
+    ],
+    "mean_accuracy": 0.4984,
+    "std_accuracy": 0.096
+  },
+  "phash_grouped_5fold": {
+    "fold_accuracy": [
+      0.881,
+      0.8905,
+      0.8921,
+      0.8984,
+      0.7968
+    ],
+    "mean_accuracy": 0.8717,
+    "std_accuracy": 0.0379
+  }
+}

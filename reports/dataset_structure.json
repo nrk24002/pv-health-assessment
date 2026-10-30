@@ -1,0 +1,56 @@
+[
+  {
+    "class": "Burnmarks",
+    "files": 525,
+    "distinct_md5": 324,
+    "distinct_phash": 242,
+    "panels": 26,
+    "largest_panel_group": 69,
+    "largest_group_distinct_md5": 1
+  },
+  {
+    "class": "Delamination",
+    "files": 525,
+    "distinct_md5": 324,
+    "distinct_phash": 242,
+    "panels": 26,
+    "largest_panel_group": 75,
+    "largest_group_distinct_md5": 1
+  },
+  {
+    "class": "Discoloration",
+    "files": 525,
+    "distinct_md5": 303,
+    "distinct_phash": 229,
+    "panels": 26,
+    "largest_panel_group": 64,
+    "largest_group_distinct_md5": 1
+  },
+  {
+    "class": "Glass breakage",
+    "files": 525,
+    "distinct_md5": 317,
+    "distinct_phash": 241,
+    "panels": 26,
+    "largest_panel_group": 68,
+    "largest_group_distinct_md5": 1
+  },
+  {
+    "class": "Good Panel",
+    "files": 525,
+    "distinct_md5": 314,
+    "distinct_phash": 237,
+    "panels": 26,
+    "largest_panel_group": 60,
+    "largest_group_distinct_md5": 1
+  },
+  {
+    "class": "Snailtrail",
+    "files": 525,
+    "distinct_md5": 309,
+    "distinct_phash": 252,
+    "panels": 26,
+    "largest_panel_group": 68,
+    "largest_group_distinct_md5": 1
+  }
+]

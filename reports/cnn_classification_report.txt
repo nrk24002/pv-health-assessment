@@ -1,0 +1,17 @@
+CNN model: ResNet18 (ImageNet-pretrained, fine-tuned)
+
+Best validation accuracy: 1.000
+Test accuracy: 1.000   Test macro-F1: 1.000
+
+                precision    recall  f1-score   support
+
+     Burnmarks       1.00      1.00      1.00        79
+  Delamination       1.00      1.00      1.00        78
+ Discoloration       1.00      1.00      1.00        80
+Glass breakage       1.00      1.00      1.00        82
+    Good Panel       1.00      1.00      1.00        83
+    Snailtrail       1.00      1.00      1.00        79
+
+      accuracy                           1.00       481
+     macro avg       1.00      1.00      1.00       481
+  weighted avg       1.00      1.00      1.00       481

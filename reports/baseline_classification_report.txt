@@ -1,0 +1,17 @@
+Baseline: colour/contrast features + Random Forest
+
+Val accuracy 1.000
+Test accuracy 0.998  Test macro-F1 0.998
+
+                precision    recall  f1-score   support
+
+     Burnmarks      0.988     1.000     0.994        79
+  Delamination      1.000     1.000     1.000        78
+ Discoloration      1.000     1.000     1.000        80
+Glass breakage      1.000     1.000     1.000        82
+    Good Panel      1.000     0.988     0.994        83
+    Snailtrail      1.000     1.000     1.000        79
+
+      accuracy                          0.998       481
+     macro avg      0.998     0.998     0.998       481
+  weighted avg      0.998     0.998     0.998       481

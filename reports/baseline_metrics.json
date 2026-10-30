@@ -1,0 +1,122 @@
+{
+  "model": "handcrafted_colour_features_random_forest",
+  "seed": 42,
+  "rf_params": {
+    "n_estimators": 300,
+    "max_depth": null,
+    "min_samples_leaf": 2,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "feature_dim": 55,
+  "classes": [
+    "Burnmarks",
+    "Delamination",
+    "Discoloration",
+    "Glass breakage",
+    "Good Panel",
+    "Snailtrail"
+  ],
+  "train_size": 2205,
+  "val_size": 464,
+  "test_size": 481,
+  "chance_level_accuracy": 0.1667,
+  "val_accuracy": 1.0,
+  "test_accuracy": 0.9979,
+  "test_macro_f1": 0.9979,
+  "confusion_matrix": [
+    [
+      79,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      78,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      80,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      82,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      82,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      79
+    ]
+  ],
+  "group_cv_5fold": {
+    "accuracy": [
+      1.0,
+      0.9968,
+      0.9984,
+      0.9038,
+      1.0
+    ],
+    "macro_f1": [
+      1.0,
+      0.9952,
+      0.9973,
+      0.9096,
+      1.0
+    ],
+    "mean_accuracy": 0.9798,
+    "std_accuracy": 0.038,
+    "mean_macro_f1": 0.9804,
+    "std_macro_f1": 0.0354
+  },
+  "phash_group_cv_5fold": {
+    "accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      0.9984,
+      1.0
+    ],
+    "mean_accuracy": 0.9997,
+    "std_accuracy": 0.0006,
+    "mean_macro_f1": 0.9996
+  },
+  "n_panel_groups": 150,
+  "stratified_cv_ignoring_duplicates_5fold": {
+    "accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean_accuracy": 1.0,
+    "std_accuracy": 0.0,
+    "mean_macro_f1": 1.0
+  }
+}
