@@ -1,0 +1,29 @@
+# Data (large and binary, not tracked in git; kept locally and backed up in the course folder)
+data/raw/
+data/processed/*
+!data/processed/manifest.csv
+!data/processed/image_index.csv
+!data/processed/group_merge.csv
+!data/processed/group_merge_t0995.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Model artifacts
+*.pt
+*.pth
+*.ckpt
+
+# Superseded results and per-fold caches (kept locally)
+reports/archive_*/
+reports/cnn_cv_cache/
+data/processed/archive_*/
